@@ -1,7 +1,7 @@
 package OmegaUp_tarea_2;
 import java.util.Scanner;
 
-public class EstructurasCondicionales {
+public class TomaDeDecisiones {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

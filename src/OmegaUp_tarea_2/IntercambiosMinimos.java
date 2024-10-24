@@ -10,6 +10,7 @@ public class IntercambiosMinimos {
         int B = sc.nextInt();
         int C = sc.nextInt();
 
+        sc.close();
        if (C >=B && B >=A){
         System.out.println(0);
         } else if ((C>=A && A>=B) || (B>=C && C>=A) || (A>=B && B>=C)){ 
