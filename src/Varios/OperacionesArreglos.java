@@ -2,37 +2,48 @@ package Varios;
 import java.util.Random;
 
 public class OperacionesArreglos {
+
+
+    static int tamLogico = 10;
+    static final int N = 100;
+    static int[] A = new int[N];
+
+
     public static void main(String[] args) {
 
-        final int N = 100;
-        int[] A = new int[N];
-        int tamLogico = N;
+        // int tamLogico = N;
 
 
         System.out.println("Inicializando el arreglo...");
-        cargarArreglo(A, tamLogico);
+        cargarArreglo(A);
 
         System.out.println("Imprimir arrelgo...");
-        imprimirArreglo(A, tamLogico);
+        imprimirArreglo(A);
 
           
-         //System.out.println (mayor(A, i, i0);); 
-        // System.out.println (mayorArreglo(A, pocicion1, tamLogico);); 
+      
+
+        System.out.print("Inserta al final: ");
+        insertarFinal(A, 99);
+        imprimirArreglo(A);
+
+
+        System.out.print("Inserta al principio: ");
+        insertarAlPrincipio(A, 88);
+        imprimirArreglo(A);
+
+
+        // System.out.print("Inserta en posicion: ");
+        // insertarEnPosicion(A, 66, 3) ;
+        // imprimirArreglo(A);
 
 
     }
 
 
-    // private static int mayor(int[] A, int i, int i0) {
-    //     if (i == i0) {
-    //         return A[i];
-    //     } else {
-    //         return Math.max(A[i], mayor(A, i + 1, i0));
-    //     }
-    // }
+   
 
-
-    private static void cargarArreglo(int[] A, int tamLogico) {
+    private static void cargarArreglo(int[] A) {
         Random rd = new Random();
         for (int i = 0; i < tamLogico; i++) {
             A[i] = rd.nextInt(150);
@@ -40,11 +51,61 @@ public class OperacionesArreglos {
     }
 
 
-    private static void imprimirArreglo(int[] A, int tamLogico) {   
+    private static void imprimirArreglo(int[] A) {   
        for (int i = 0; i < tamLogico; i++) {
-            System.out.println(" A[" + i + "]: " + A[i]);    };
-    
-    
+            System.out.println(" A[" + i + "]: " + A[i]);  
+        };
+   }
+
+   private static int insertarFinal(int[] A, int i ){
+    if (tamLogico < N ) {
+        A[tamLogico] = i;
+        tamLogico++;  
+        return i;
+    } else {
+        return 0;
+    }
 }
+
+
+    private static int insertarAlPrincipio(int[] A, int i ){
+        if (tamLogico < N ) {
+            for (int j = tamLogico; j > 0; j--) {
+                A[j] = A[j-1];
+            }
+            A[0] = i;
+            tamLogico++;  
+            return i;
+        } else {
+            return 0;
+        }
+    }
+
+    private static void insertarEnPosicion(int[] arreglo, int pos, int valor) {
+        if (pos >= 0 && pos <= tamLogico && tamLogico < N) {
+            for (int i = tamLogico; i > pos; i--) {
+                arreglo[i] = arreglo[i - 1];
+            }
+            arreglo[pos] = valor;
+            tamLogico++;
+        }
+    }
+
+    private static void eliminar( int[] arreglo, int pos) {
+        if (tamLogico > 0) {
+            tamLogico--;
+        }
+    }
+
+
+// private static void mostrarArreglo(int[] arreglo) {
+//     System.out.print("[ ");
+//     for (int i = 0; i < tope; i++) {
+//         System.out.print(arreglo[i] + " ");
+//     }
+//     System.out.println("]");
+// }
+
+
 
 }

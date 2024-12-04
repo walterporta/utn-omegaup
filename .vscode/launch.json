@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ServidorEjercicio",
+            "request": "launch",
+            "mainClass": "Varios.ServidorEjercicio",
+            "projectName": "SAO_5e64058a"
+        },
+        {
+            "type": "java",
             "name": "OperacionesArreglos",
             "request": "launch",
             "mainClass": "Varios.OperacionesArreglos",
