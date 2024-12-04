@@ -1,0 +1,203 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "OperacionesArreglos",
+            "request": "launch",
+            "mainClass": "Varios.OperacionesArreglos",
+            "projectName": "SAO_5e64058a"
+        },
+        {
+            "type": "java",
+            "name": "DobleNada",
+            "request": "launch",
+            "mainClass": "Varios.DobleNada",
+            "projectName": "SAO_5e64058a"
+        },
+        {
+            "type": "java",
+            "name": "Dados",
+            "request": "launch",
+            "mainClass": "Varios.Dados",
+            "projectName": "SAO_5e64058a"
+        },
+        {
+            "type": "java",
+            "name": "RandomExample",
+            "request": "launch",
+            "mainClass": "Varios.RandomExample",
+            "projectName": "SAO_5e64058a"
+        },
+        {
+            "type": "java",
+            "name": "SecuenciaNumerosPares",
+            "request": "launch",
+            "mainClass": "Varios.SecuenciaNumerosPares",
+            "projectName": "SAO_5e64058a"
+        },
+        {
+            "type": "java",
+            "name": "ModularMultiplicarProducto",
+            "request": "launch",
+            "mainClass": "Varios.ModularMultiplicarProducto",
+            "projectName": "SAO_5e64058a"
+        },
+        {
+            "type": "java",
+            "name": "Aproximacion_Pi",
+            "request": "launch",
+            "mainClass": "OmegaUp_tarea_3.Aproximacion_Pi",
+            "projectName": "SAO_5e64058a"
+        },
+        {
+            "type": "java",
+            "name": "Duplas_1",
+            "request": "launch",
+            "mainClass": "OmegaUp_tarea_3.Duplas_1",
+            "projectName": "SAO_5e64058a"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Pregunta_01",
+            "request": "launch",
+            "mainClass": "Ejercicios_01.Pregunta_01",
+            "projectName": "SAO_5e64058a"
+        },
+        {
+            "type": "java",
+            "name": "HolaProfes",
+            "request": "launch",
+            "mainClass": "HolaProfes",
+            "projectName": "SAO_5e64058a"
+        },
+        {
+            "type": "java",
+            "name": "CalculosMentalesCompetitivos",
+            "request": "launch",
+            "mainClass": "OmegaUp_tarea_1.CalculosMentalesCompetitivos",
+            "projectName": "SAO_5e64058a"
+        },
+        {
+            "type": "java",
+            "name": "LaHoraEnUnPlanetaLejano",
+            "request": "launch",
+            "mainClass": "OmegaUp_tarea_1.LaHoraEnUnPlanetaLejano",
+            "projectName": "SAO_5e64058a"
+        },
+        {
+            "type": "java",
+            "name": "ProgramandoFormulasRaras",
+            "request": "launch",
+            "mainClass": "OmegaUp_tarea_1.ProgramandoFormulasRaras",
+            "projectName": "SAO_5e64058a"
+        },
+        {
+            "type": "java",
+            "name": "SumaSimple",
+            "request": "launch",
+            "mainClass": "OmegaUp_tarea_1.SumaSimple",
+            "projectName": "SAO_5e64058a"
+        },
+        {
+            "type": "java",
+            "name": "BatallandoConLaEscalada",
+            "request": "launch",
+            "mainClass": "OmegaUp_tarea_2.BatallandoConLaEscalada",
+            "projectName": "SAO_5e64058a"
+        },
+        {
+            "type": "java",
+            "name": "CalculosCondicionales",
+            "request": "launch",
+            "mainClass": "OmegaUp_tarea_2.CalculosCondicionales",
+            "projectName": "SAO_5e64058a"
+        },
+        {
+            "type": "java",
+            "name": "DetectandoElOrden",
+            "request": "launch",
+            "mainClass": "OmegaUp_tarea_2.DetectandoElOrden",
+            "projectName": "SAO_5e64058a"
+        },
+        {
+            "type": "java",
+            "name": "EtapasDeLaVida",
+            "request": "launch",
+            "mainClass": "OmegaUp_tarea_2.EtapasDeLaVida",
+            "projectName": "SAO_5e64058a"
+        },
+        {
+            "type": "java",
+            "name": "IntercambiosMinimos",
+            "request": "launch",
+            "mainClass": "OmegaUp_tarea_2.IntercambiosMinimos",
+            "projectName": "SAO_5e64058a"
+        },
+        {
+            "type": "java",
+            "name": "TomaDeDecisiones",
+            "request": "launch",
+            "mainClass": "OmegaUp_tarea_2.TomaDeDecisiones",
+            "projectName": "SAO_5e64058a"
+        },
+        {
+            "type": "java",
+            "name": "CicloMientrasNoCero",
+            "request": "launch",
+            "mainClass": "OmegaUp_tarea_3.CicloMientrasNoCero",
+            "projectName": "SAO_5e64058a"
+        },
+        {
+            "type": "java",
+            "name": "EncuentraElMayor",
+            "request": "launch",
+            "mainClass": "OmegaUp_tarea_3.EncuentraElMayor",
+            "projectName": "SAO_5e64058a"
+        },
+        {
+            "type": "java",
+            "name": "LaSecuenciaInfinita",
+            "request": "launch",
+            "mainClass": "OmegaUp_tarea_3.LaSecuenciaInfinita",
+            "projectName": "SAO_5e64058a"
+        },
+        {
+            "type": "java",
+            "name": "SumaDeLosDigitos",
+            "request": "launch",
+            "mainClass": "OmegaUp_tarea_3.SumaDeLosDigitos",
+            "projectName": "SAO_5e64058a"
+        },
+        {
+            "type": "java",
+            "name": "TUTI_SAO_Inversiones",
+            "request": "launch",
+            "mainClass": "TP.TUTI_SAO_Inversiones",
+            "projectName": "SAO_5e64058a"
+        },
+        {
+            "type": "java",
+            "name": "Ejemplos",
+            "request": "launch",
+            "mainClass": "Varios.Ejemplos",
+            "projectName": "SAO_5e64058a"
+        },
+        {
+            "type": "java",
+            "name": "For",
+            "request": "launch",
+            "mainClass": "Varios.For",
+            "projectName": "SAO_5e64058a"
+        }
+    ]
+}

@@ -7,6 +7,7 @@ public class SumaSimple
         Scanner entrada = new Scanner(System.in);
         System.out.print("Ingrese un numero: ");
         num1 = entrada.nextInt();
+        entrada.close(); 
         System.out.println("El numero ingresado + 1 es:" + (num1 + 1));
     }
 }

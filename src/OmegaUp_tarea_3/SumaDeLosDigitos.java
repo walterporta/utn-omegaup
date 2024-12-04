@@ -1,4 +1,5 @@
 package OmegaUp_tarea_3;
+
 import java.util.Scanner;
 
 public class SumaDeLosDigitos {
@@ -9,15 +10,14 @@ public class SumaDeLosDigitos {
         int input = sc.nextInt();
         sc.close();
 
-        int sumaInput= 0;
-        String inputString = Integer.toString(input);
-        
-        
-        for (int i = 0; i < inputString.length(); i++) {
-            sumaInput += Character.getNumericValue(inputString.charAt(i));
+        int sumaInput = 0;
+
+        while (input > 0) {
+            sumaInput += input % 10;
+            input /= 10;
         }
-        
+
         System.out.println(sumaInput);
-        
+
     }
 }

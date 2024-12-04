@@ -16,7 +16,8 @@ public class EncuentraElMayor {
                 mayor = num;
             }
         }
-
+        
+        sc.close();
         System.out.println(mayor);
     }
 }
